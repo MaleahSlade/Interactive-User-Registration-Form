@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Lab 5.2: Interactive User Registration Form</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <form id="form" action="/" novalidate>
+
+            <h1>Register Account</h1>
+
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" required>
+                <small>3-20 characters, letters and numbers only.</small>
+                <span class="error-message" id="usernameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+
+            <!-- <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" type="tel" minlength="10" maxlength="11">
+                <span class="error-message" id="phoneError"></span>
+            </div> -->
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" required>
+                <small>At least 8 characters.</small>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password2">Confirm Password</label>
+                <input id="password2" name="password2" type="password" required>
+                <span class="error-message" id="password2Error"></span>
+            </div>
+
+            <button type="submit">Sign Up</button>
+
+        </form>
+
+    </div>
+</body>
+</html>
