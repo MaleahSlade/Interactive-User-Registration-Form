@@ -1,0 +1,1 @@
+A responsive and interactive user registration form built with HTML, CSS, and JavaScript. This project demonstrates client-side form validation, DOM manipulation, event handling, and localStorage to create a user-friendly registration experience.
